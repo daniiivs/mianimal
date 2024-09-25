@@ -1,7 +1,7 @@
 import {StrictMode} from 'react'
 import {createRoot} from 'react-dom/client'
 import App from './App.jsx'
-import Appgrid from "./Appgrid.jsx";
+import Appgrid from "./components/Appgrid.jsx";
 import './index.css'
 
 createRoot(document.getElementById('root')).render(
