@@ -6,6 +6,7 @@ function App() {
     return (
         <>
             <Ficha/>
+            <br/><br/>
             <FormRegistro/>
         </>
     )

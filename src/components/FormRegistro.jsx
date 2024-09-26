@@ -37,14 +37,14 @@ function FormRegistro() {
 
     return (
         <Container>
-            <Paper elevation={2} square={false} sx={{textAlign: 'center'}}>
-                <Typography variant='h6' color='elige el color' sx={{mt: 2, mb: 2}}>Registra tu mascota</Typography>
+            <Paper elevation={5} square={false} sx={{textAlign: 'center'}}>
+                <Typography variant='h6' color={'blue'} sx={{mt: 2, mb: 2}}>Registra tu mascota</Typography>
                 <Box
                     component='form'
                     onSubmit={handleSubmit}
                 >
-                    <Grid container spacing={0}>
-                        <Grid size={6}> {/*Hacer responsive*/}
+                    <Grid container spacing={{xs: 2, sm: 2, md: 1}}>
+                        <Grid size={{xs: 12, sm: 12, md: 6}}> {/*Hacer responsive*/}
                             <TextField
                                 required
                                 label='Nombre Mascota'
@@ -54,7 +54,7 @@ function FormRegistro() {
                                 onChange={handleChangeName}
                             />
                         </Grid>
-                        <Grid size={6}> {/*Hacer responsive*/}
+                        <Grid size={{xs: 12, sm: 12, md: 6}}> {/*Hacer responsive*/}
                             <TextField
                                 label='Raza'
                                 variant='outlined'
