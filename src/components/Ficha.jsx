@@ -29,7 +29,7 @@ function Ficha() {
                 <Avatar src={datos.imageUrl} alt='Gato feliz'
                         sx={{height: datos.imageSize, width: datos.imageSize}}/>
                 <Button color='primary' size='small' variant='text' onClick={handleClick}>Me
-                    acariciaste {count} veces</Button>
+                    has acariciado {count} veces</Button>
                 {/*<Button color='secondary' size='medium' variant='contained' onClick={handleClick}>Me
                     acariciaste {count} veces</Button>
                 <Button color='success' size='large' variant='outlined' onClick={handleClick} disabled='true'>Me
